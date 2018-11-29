@@ -1,0 +1,7 @@
+- hosts: "localhost"
+  vars:
+  tasks:
+    - name: Dynamic Inventory with j2
+      template:
+        src: Template.j2
+        dest: /home/nishant/test/hosts
